@@ -1,0 +1,30 @@
+{
+  "name": "Express-Tutorial-Website-ejs",
+  "version": "0.0.1",
+  "description": "Express-Tutorial-Website with ejs",
+  "main": "bin/server",
+  "license": "MIT",
+  "author": {
+    "name": "Meska",
+    "email": "ardaenginebcim@gmail.com"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "start": "node .",
+    "install:packpage": "npm install"
+  },
+  "keywords": [
+    "meska",
+    "express",
+    "ejs"
+  ],
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "morgan": "^1.10.0"
+  }
+}
